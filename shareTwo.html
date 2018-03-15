@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html style="background-color: #fff;" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8"/>
+	<title>分享目标2</title>
+	<script type="text/javascript" src="js/adapt.js"></script>
+	<script src="js/build/flexible.debug.js"></script>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1,user-scale=no">
+    <script src="js/build/flexible_css.debug.js"></script>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no"; name="format-detection">
+    <link rel="stylesheet" type="text/css" href="css/weui.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/share.css">
+</head>
+<body>
+<!--js获取后targetId和选项卡id-->
+<input type="hidden" name="targetId" id="targetId" th:value="*{targetId}">
+<input type="hidden" name="tabId" id="tabId" th:value="*{tabId}">
+	<a href="share.html" class="headCon">
+		<div class="headDetail">
+			<div class="nametime">
+				<p><img src="images/renzheng.png">
+					<span>二狗</span>
+				</p>
+				<p class="ptime">今天12:00</p>
+			</div>
+			<img class="touxiang" src="images/touxiang.png">
+			<img class="moneyb" src="images/moneyb.png">
+			<span class="mmoney">￥50元</span>
+		</div>
+		<div class="mainCon">
+			<span>从今天开始连续7天，每天P一张关于科比的图片！！！！！！！！！兄弟们快来监督我，每天分享哦</span>
+		</div>
+	</a>
+	<div class="image">
+		<div class="imageCon">
+			<img src="images/img.png">
+			<img style="margin-left: 0.1066rem;" src="images/img.png">
+			<img style="margin-left: 0.1066rem;" src="images/img.png">
+		</div>
+	</div>
+	<div class="detail">
+		<div class="detailCon">
+			<img src="images/dian.png">
+			<span>目标进行中</span>
+			<a href="share.html">申请目标</a>
+			<img style="float: right;margin-right: 0.56rem;width: 0.48rem;height: 0.48rem;overflow: hidden;margin-top: 0.2105rem;" class="zanzan" src="images/zanone.png">
+		</div>
+	</div>
+	<div class="comment">
+		<input class="commentValue" type="text" style="border: 1px solid #dcdcdc;box-shadow: none;" placeholder="说说你的想法吧"></input>
+		<!-- <a class="submitText">发送</a> -->
+	</div>
+	<div class="zanContent">
+		<a id="zanDetail" href="share.html">
+			
+		</a>
+	</div>
+	<div class="commentDetail">
+		<span class="blockComment"><a href="#">陈霖：</a><span>sdsadsadsadsadsadsadsadsad</span></span>
+		<span class="blockComment"><a href="#">张首锋：</a><span>sdsadsadsadsadsadsadsadsad</span></span>
+		<span class="blockComment"><a href="#">陈美机：</a><span>sdsadsadsadsadsadsadsadsad</span></span>
+		<span class="blockComment"><a href="#">张蓝：</a><span>sdsadsadsadsadsadsadsadsad</span></span>
+	</div>
+	<div class="hide">
+		<div class="h_top">
+			<a id="publish">发布</a>
+			<a id="cancle">取消</a>
+		</div>
+		<textarea id="iptComment" placeholder="说说你的想法吧"></textarea>
+	</div>
+<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="js/jquery-weui.min.js"></script>
+<script type="text/javascript" src="js/wx.js"></script>
+<script type="text/javascript" src="js/vue-min.js"></script>
+<script type="text/javascript" src="js/vue-resource.js"></script>
+<script type="text/javascript" src="js/shareTwo1.js"></script>
+</body>
+</html>

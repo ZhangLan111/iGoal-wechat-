@@ -1,0 +1,86 @@
+html{
+	background-color: #eeeeee;
+}
+.header{
+	width: 100%;
+	height: 1.16rem;
+	background-color: #00c2c6;
+}
+.header a,.header span{
+	display: inline-block;
+	color: #fff;
+}
+.headLeft{
+	margin-left: 0.4rem;
+	font-size: 0.363rem;
+	line-height: 1.16rem;
+	float: left;
+}
+.headFinish{
+	font-size: 0.42666rem;
+	line-height: 1.16rem;
+	float: right;
+	margin-right: 0.4rem;
+}
+.header img{
+	line-height: 1.16rem;
+	display: inline-block;
+	float: left;
+	margin-top: 0.18rem;
+}
+.headerCenter{
+	display: inline-block;
+	margin: 0 auto;
+	font-size: 0.48rem;
+	color: #fff;
+	line-height: 1.16rem;
+	float: left;
+	margin-left: 3.68rem;
+}
+/* 底部*/
+.footer{
+	width: 100%;
+	height: 3.2266rem;
+	background-color: #fff;
+	margin-top: 4.7066rem;
+	float: left;
+	position: absolute;
+	bottom: 0;
+}
+.footCon{
+	text-align: center;
+}
+.footer span{
+	line-height: 3.2266rem;
+	font-size: 0.3466rem;
+	color: #898989;
+}
+/* 底部 固定导航*/
+.foot{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+	height: 1.3333rem;
+	float: left;
+}
+.footerlist li{
+	list-style: none;
+	float: left;
+	display: block;
+	width: 2.5rem;
+	height: 1.3333rem;
+	text-align: center;
+}
+.footerlist img{
+	display: block;
+}
+.footerlist img{
+	width: 0.6666rem;
+	height: 0.6666rem;
+	margin: 0 auto;
+	margin-top: 0.24rem;
+}
+.footerlist p{
+	font-size: 0.2666rem;
+}

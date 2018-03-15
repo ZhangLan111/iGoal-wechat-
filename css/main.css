@@ -1,0 +1,71 @@
+/* 内容 */
+.content{
+	width: 100%;
+	height: 1.9066rem;
+	background-color: #fff;
+	float: left;
+}
+.content img{
+	display: inline-block;
+	margin-left: 0.4rem;
+	margin-top: 0.28rem;
+	width: 1.3066rem;
+	height: 1.3066rem;
+	border-radius: 0.6533rem;
+	overflow: hidden;
+	float: left;
+}
+.conDetail{
+	display: inline-block;
+	margin-left: 0.24rem;
+	float: left;
+	margin-top: 0.64rem;
+}
+.conDetail span{
+	display: block;
+}
+.spOne{
+	font-size: 0.3733rem;
+	color: #000;
+}
+.spTwo{
+	font-size: 0.2666rem;
+	color: #989898;
+}
+.time{
+	display: inline-block;
+	float: right;
+	margin-right: 0.3733rem;
+	color: #000;
+	font-size: 0.3733rem;
+	line-height: 1.9066rem;
+}
+/* 底部 */
+.foot{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+	height: 1.3333rem;
+	float: left;
+}
+.footerlist li{
+	list-style: none;
+	float: left;
+	display: block;
+	width: 2.5rem;
+	height: 1.3333rem;
+	text-align: center;
+}
+.footerlist img{
+	display: block;
+}
+.footerlist img{
+	width: 0.6666rem;
+	height: 0.6666rem;
+	margin: 0 auto;
+	margin-top: 0.24rem;
+}
+.footerlist p{
+	font-size: 0.2666rem;
+}

@@ -1,0 +1,308 @@
+
+.headCon{
+	width: 9.2266rem;
+	height: 1.2533rem;
+	display: block;
+	background-color: #fff;
+	margin: 0.3466rem auto 0 auto;
+}
+.headDetail{
+	width: 7.04rem;
+	height: 1.2533rem;
+	margin: 0 auto;
+}
+.nametime{
+	width: 1.5466rem;
+	height: 1.2533rem;
+	display: inline-block;
+	float: left;
+}
+.nametime img{
+	display: inline-block;
+	width: 0.2666rem;
+	height: 0.3466rem;
+	overflow: hidden;
+}
+.nametime span{
+	color: #000;
+	font-size: 0.4266rem;
+}
+.ptime{
+	color: #989898;
+	font-size: 0.2933rem;
+}
+.touxiang{
+	display: inline-block;
+	width: 1.28rem;
+	height: 1.28rem;
+	border-radius: 0.64rem;
+	overflow: hidden;
+	margin-left: 1.04rem;
+	margin-right: 1.0666rem;
+	float: left;
+}
+.moneyb{
+	display: inline-block;
+	width: 0.3733rem;
+	height: 0.4266rem;
+	overflow: hidden;
+	float: left;
+	margin-top: 0.5266rem;
+}
+.mmoney{
+	color: #d31e1e;
+	font-size: 0.5066rem;
+	display: inline-block;
+	float: right;
+	margin-top: 0.4266rem;
+}
+/* 主要内容 */
+.mainCon{
+	/* width: 9.2266rem;
+	margin: 0.44rem auto 0 auto; */
+	color: #000;
+	font-size: 0.4rem;
+	word-wrap: break-word; 
+	float: left;
+	margin-top: 1rem;
+}
+.image{
+	width: 100%;
+	display: block;
+	margin-top: 0.3733rem;
+	/* margin-left: 0.4rem; */
+	/* margin: 0.3733rem auto 0 auto; */
+	float: left;
+}
+.imageCon{
+	width: 9.2266rem;
+	display: block;
+	margin: 0 auto;
+}
+.image img{
+	display: inline-block;
+	width: 3rem;
+	height: 3rem;
+	overflow: hidden;
+	float: left;
+}
+.supervise{
+	width: 100%;
+	margin-top: 0.5733rem;
+	float: left;
+}
+.superviseCon{
+	width: 9.2266rem;
+	margin: 0 auto;
+}
+.supervise span{
+	display:block;
+	color: #000;
+	font-size: 0.4rem; 
+	margin-left: 0.4rem;
+}
+.supervise img{
+	display: inline-block;
+	width: 1.1733rem;
+	height: 1.1733rem;
+	border-radius: 0.5866rem;
+	overflow: hidden;
+	float: left;
+	margin-top: 0.24rem;
+}
+.supervise a{
+	display: inline-block;
+	width: 2.9333rem;
+	height: 0.8rem;
+	border-radius: 10px;
+	background-color: #00a5a8;
+	color: #fff;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.8rem;
+	float: right;
+	margin-top: 0.4266rem; 
+}
+.keepTime{
+	width: 100%;
+	height: 1.1733rem;
+	float: left;
+	/* margin-left: 0.4rem; */
+	margin-top: 0.2666rem;
+}
+.timeCon{
+	width: 9.2666rem;
+	height: 1.1733rem;
+	margin: 0 auto;
+	border-top: 1px solid #dcdcdc;
+}
+.keepTime span{
+	display: inline-block;
+	color: #000;
+	font-size: 0.4rem;
+	margin-top: 0.2666rem;
+}
+/* 分享页 */
+.detail{
+	width: 100%;
+	height: 0.8rem;
+	margin-top: 0.4rem;
+	/* margin-left: 0.2666rem; */
+	line-height: 0.8rem;
+	float: left;
+}
+.detailCon{
+	width: 9.2666rem;
+	height: 0.8rem;
+	margin: 0 auto;
+}
+.detail img,.detail span{
+	display: inline-block;
+	color: #000;
+	font-size: 0.4rem;
+}
+.dian{
+	margin-right: 0.2133rem;
+}
+.detail a{
+	display: inline-block;
+	width: 2.9333rem;
+	height: 0.8rem;
+	color: #fff;
+	border-radius: 10px;
+	background-color: #00a5a8;
+	font-size: 0.4rem;
+	margin-left: 0.84rem;
+	text-align: center;
+}
+.comment{
+	width: 100%;
+	float: left;
+	margin-top: 0.64rem;
+	/* height: 0.9066rem; */
+}
+.comment input{
+	display: block;
+	width: 9.2666rem;
+	height: 0.9066rem;
+	margin: 0 auto;
+}
+/* share two发送按钮 */
+.submitText{
+	display: block;
+	width: 1.9333rem;
+	height: 0.8rem;
+	color: #fff;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #00a5a8;
+	font-size: 0.4rem;
+	text-decoration: none;
+	line-height: 0.8rem;
+	float: right;
+	margin-top: 0.64rem;
+	margin-right: 0.44rem;
+}
+/* 评论相关 */
+.commentDetail{
+ 	width: 9.2266rem;
+ 	margin: 0 auto;
+}
+.blockComment{
+	display: block;
+}
+.blockComment a{
+	color: #00a5a8;
+	font-size: 0.4rem;
+	text-decoration: none;
+}
+.blockComment span{
+	color: #000;
+	font-size: 0.4rem;
+	
+}
+/* 评论页面 */
+.hide{
+	width: 10rem;
+	height: 17.7866rem;
+	z-index: 10000;
+	display: none;
+	background-color: #fff;
+    position: absolute;
+    float: left;
+    margin-left: 10rem;
+    top: 0;
+}
+.h_top{
+	width: 100%;
+	height: 1.16rem;
+	background-color: #ccc;
+	color: #000;
+	font-size: 0.42666rem;
+	line-height: 1.16rem;
+}
+#publish{
+	display: inline-block;
+	float: right;
+	margin-left: 0.4rem;
+}
+#cancle{
+	display: inline-block;
+	float: left;
+	margin-right: 0.4rem;
+}
+#iptComment{
+	display: block;
+	width: 9.2266rem;
+	height: 4.5rem;
+	margin: 0.3466rem auto 0 auto;
+	box-shadow: none;
+	border: 1px solid #dcdcdc;
+	font-size: 0.42666rem;
+	padding-top: 0.2466rem;
+	padding-left: 0.2466rem;
+	color: #999;
+}
+textarea::-webkit-input-placeholder{
+	color: #999;
+} 
+textarea::-moz-placeholder{
+	color: #999;
+}   
+textarea::-ms-input-placeholder{
+	color: #999;
+}  
+textarea:-moz-placeholder{
+	color: #999;
+}  
+/* 点赞相关 */
+.addOne{
+	display: none;
+	width: 0.4rem;
+	height: 0.4rem;
+	animation: down 1s;
+}
+
+@keyframes move {
+    0% {
+        bottom: 250px;
+    }
+    50% {
+        bottom: 260px;
+    }
+    100% {
+        bottom: 270px;
+    }
+}
+
+@-webkit-keyframes move {
+    0% {
+        bottom: 250px;
+    }
+    50% {
+        bottom: 260px;
+    }
+    100% {
+        bottom: 270px;
+    }
+}

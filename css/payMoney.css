@@ -1,0 +1,117 @@
+/* 应付押金 */
+.money{
+	width: 100%;
+	height: 1.2666rem;
+	background-color: #fff;
+	margin-top: 0.24rem;
+	float: left;
+}
+.money span{
+	font-size: 0.4533rem;
+	display: inline-block;
+	line-height: 1.2666rem;
+}
+.moneyLeft{
+	color: #000;
+	float: left;
+	margin-left: 0.4rem;
+}
+.moneyCount{
+	color: #ff0000;
+	float: right;
+	margin-right: 0.36rem;
+}
+/* 支付方式 */
+.payType{
+	width: 100%;
+	height: 1rem;
+	background-color: #fff;
+	float: left;
+	margin-top: 0.4933rem;
+}
+.payType span{
+	display: block;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.4533rem;
+}
+.leftmoney{
+	width: 100%;
+	height: 1.2933rem;
+	background-color: #fff;
+	float: left;
+	margin-top: 0.2rem;
+	border-bottom: 1px solid #eee;
+}
+.leftmoney img,.leftmoney span{
+	display: inline-block;
+}
+.wallet{
+	width: 0.5733rem;
+	height: 0.6133rem;
+	margin-top: 0.3066rem;
+	margin-left: 0.4rem;
+	margin-right: 0.4rem;
+	float: left;
+}
+.moneysp{
+	color: #000;
+	font-size: 0.48rem;
+	line-height: 1.2933rem;
+	float: left;
+}
+.choosed{
+    width: 0.5066rem;
+    height: 0.5066rem;
+    float: right;
+    margin-right: 0.4rem;
+    margin-top: 0.3733rem;
+}
+/* 微信支付 */
+.wechatPay{
+	width: 100%;
+	height: 1.28rem;
+	background-color: #fff;
+	float: left;
+}
+.wechatPay img,.wechatPay span{
+	display: inline-block;
+}
+.wechatPay img{
+	width: 0.5733rem;
+	height: 0.5733rem;
+	margin-top: 0.3066rem;
+	margin-left: 0.4rem;
+	margin-right: 0.4rem;
+	float: left;
+}
+.wechatPay span{
+	color: #000;
+	font-size: 0.48rem;
+	line-height: 1.28rem;
+	float: left;
+}
+/* 确定支付按钮 */
+.surePay{
+	/* width: 5.9866rem; */
+	height: 1.2533rem;
+	width: 100%;
+	/* background-color: #70bbbb;
+	border-radius: 5px; */
+	float: left;
+	margin-top: 0.6266rem;
+	/* margin-left: 2.0133rem; */
+}
+
+.surePay a{
+	width: 5.9866rem;
+	height: 1.2533rem;
+	margin: 0 auto;
+	background-color: #70bbbb;
+	border-radius: 5px;
+	display: block;
+	text-align: center;
+	line-height: 1.2533rem;
+	color: #fff;
+	font-size: 0.48rem;
+}

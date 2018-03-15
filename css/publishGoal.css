@@ -1,0 +1,103 @@
+/* 发布目标内容 */
+.goalCon{
+	width: 100%;
+	height: 3.44rem;
+	float: left;
+	background-color: #fff;
+}
+.goalDetail{
+	display: block;
+	width: 9.2rem;
+	height: 3.44rem;
+	/* margin: 0 auto; */
+	padding-left: 0.2233rem;
+	padding-top: 0.4266rem;
+	font-size: 0.3333rem;
+}
+textarea::placeholder{
+	color: #b6b6b6;
+	font-size: 0.3333rem;
+}
+.add{
+	width: 100%;
+	height: 1.9066rem;
+	background-color: #fff;
+	float: left;
+}
+.add a{
+	display: inline-block;
+	width: 1.56rem;
+	height: 1.6266rem;
+	border: 1px dashed #3d3d3d;
+	text-align: center;
+	line-height: 1.4266rem;
+	font-size: 2.0266rem;
+	color: #eee;
+	margin-left: 0.4rem;
+}
+.add img{
+	display: inline-block;
+	width: 1.56rem;
+	height: 1.6266rem;
+	margin-left: 0.4rem;
+}
+/* 持续时间 押金 谁可以看*/
+.keepTime,.money,.whoSee{
+	width: 100%;
+	height: 1.28rem;
+	background-color: #fff;
+	float: left;
+	font-size: 0.3466rem;
+	color: #000;
+}
+.keepTime{
+	margin-top: 0.24rem;
+}
+.keepTime,.money{
+	border-bottom: 1px solid #eee;
+}
+input{
+	border: none;
+	text-align: center;
+	width: 6.5733rem;
+}
+.one,.two,input{
+	display: inline-block;
+	line-height: 1.28rem;
+}
+.one{
+	margin-left: 0.4rem;
+}
+.two{
+	float: right;
+	margin-right: 0.4rem;
+}
+/* 底部 */
+.foot{
+	width: 100%;
+	height: 4.96rem;
+	background-color: #fff;
+	float: left;
+	position: absolute;
+	bottom: 0;
+}
+.foot a{
+	display: block;
+	width: 6rem;
+	height: 1.2rem;
+	border-radius: 8px;
+	background-color: #85c5c5;
+	margin: 1.1733rem auto 0 auto;
+	color: #fff;
+	font-size: 0.4697rem;
+	text-align: center;
+	line-height: 1.2rem;
+}
+.footerCon{
+	text-align: center;
+	margin-top: 0.72rem;
+}
+.foot span{
+	font-size: 0.3466rem;
+	color: #898989;
+}

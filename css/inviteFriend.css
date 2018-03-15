@@ -1,0 +1,83 @@
+/* 成功支付 */
+.payOver{
+	width: 100%;
+	height: 3.18666rem;
+	background-color: #fff;
+	margin-top:  0.26666rem;
+	overflow: hidden;
+	float: left;
+}
+.payCenter{
+	width: 2.76rem;
+	height: 3.1866rem;
+	margin: 0 auto;
+}
+.payFinish{
+	/* margin-left: 4.05333rem; */
+	margin-top: 0.96rem;
+	font-size: 0.373333rem;
+	color: #000;
+}
+.payMoney{
+	/* margin-left: 4.05333rem; */
+	margin-top: 0.2667rem;
+	font-size: 0.453333rem;
+	color: #ff0000;
+}
+.payMoney img{
+	display: inline-block;
+	width: 0.48rem;
+	height: 0.48rem;
+	padding-left: 0.34667rem;
+}
+/* 邀请好友 */
+.invite{
+	width: 100%;
+	height: 4.5333rem;
+	margin-top: 0.2rem;
+	background-color: #fff;
+	float: left;
+}
+.inviteHead{
+	width: 100%;
+	height: 1.4rem;
+}
+.inviteHead span{
+	color: #000;
+	text-align: center;
+	line-height: 1.4rem;
+	font-size: 0.48rem;
+	display: block;
+	border-bottom: 1px solid #eee;
+}
+.inviteType{
+	margin-top: 0.44rem;
+	width: 100%;
+	height: 2.7333rem;
+	float: left;
+}
+.typeCenter{
+	width: 7.76rem;
+	height: 2.7333rem;
+	margin: 0 auto;
+}
+.typeList li{
+	list-style: none;
+	float: left;
+	display: block;
+	margin-left: 1.44rem;
+	width: 1.5733rem;
+	height: 2.7333rem;
+}
+.typeList li img{
+	display: block;
+	width: 1.44rem;
+	height: 1.44rem;
+}
+.typeList li span{
+	font-size: 0.32rem;
+	color: #000;
+	display: block;
+	text-align: center;
+	margin-top: 0.2133rem;
+}

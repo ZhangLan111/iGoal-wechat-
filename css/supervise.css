@@ -1,0 +1,93 @@
+/* 头部内容标识 */
+.header{
+	width: 100%;
+	height: 1.16rem;
+	background-color: #00c2c6;
+}
+.header a,.title{
+	display: inline-block;
+	color: #fff;
+}
+.headLeft{
+	margin-left: 0.4rem;
+	font-size: 0.363rem;
+	line-height: 1.16rem;
+	float: left;
+
+}
+.title{
+	text-align: center;
+	font-size: 0.363rem;
+	line-height: 1.16rem;
+	margin-left: 3.3266rem;
+}
+/* 申请监督信息 */
+.content{
+	width: 100%;
+	height: 1.7067rem;
+}
+.superviseCon{
+	width: 9.36rem;
+	height: 1.7067rem;
+	margin: 0 auto;
+}
+.superImg{
+	width: 1.3333rem;
+	height: 1.3333rem;
+	border-radius: 0.6666rem;
+	display: inline-block;
+	margin-top: 0.3rem;
+	float: left;
+}
+.detailCon{
+	width: 5.4266rem;
+	height: 1.7067rem;
+	display: inline-block;
+	margin-left: 0.3466rem;
+	float: left;
+}
+.personCon{
+	color: #000;
+	font-size: 0.3733rem;
+	display: block;
+	margin-top: 0.4266rem;
+}
+.apply{
+	width: 1.6933rem;
+	height: 0.4933rem;
+	border-radius: 0.8rem;
+	background-color: #ff7e38;
+	color: #fff;
+	font-size: 0.32rem;
+	text-align: center;
+	line-height: 0.4933rem;
+	margin-top: 0.12rem;
+	display: inline-block;
+}
+.applyCon{
+	font-size: 0.32rem;
+	color: #e8e8e8;
+	display: inline-block;
+}
+.agree{
+	width: 1.6rem;
+	height: 0.8rem;
+	display: inline-block;
+	text-align: center;
+	line-height: 0.8rem;
+	font-size: 0.3733rem;
+	color: #00a5a8;
+	border: 1px solid #00a5a8;
+	border-radius: 10px;
+	float: right;
+	margin-top: 0.4266rem;
+}
+#hadAgree{
+	color: #848484;
+	text-decoration: none;
+	font-size: 0.3733rem;
+	display: inline-block;
+	float: right;
+	margin-right: 0.1866rem;
+	margin-top: 0.6266rem;
+}

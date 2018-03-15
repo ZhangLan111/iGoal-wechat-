@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html style="font-size: 75px;">
+<head>
+	<meta charset="utf-8"/>
+	<title>发布目标</title>
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1,user-scale=no">
+	<script type="text/javascript" src="js/adapt.js"></script>
+	<script src="js/build/flexible.debug.js"></script>
+    <script src="js/build/flexible_css.debug.js"></script>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no"; name="format-detection">
+    <link rel="stylesheet" type="text/css" href="css/weui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/publishGoal.css">
+    <link rel="stylesheet" type="text/css" href="css/weui.min.css">
+</head>
+<body>
+	<div class="header">
+		<span class="headLeft"><</span>
+	</div>
+	<div class="goalCon">
+		<textarea style="border: none;box-shadow:none;" class="goalDetail" placeholder="嘿！你最近的目标呢？"></textarea>
+	</div>
+	<div class="add">
+		<a id="chooseImage">+</a>
+		
+	</div>
+	<div class="keepTime">
+		<span class="one">持续时间</span>
+		<input style="box-shadow: none;" id='datetime-picker' type="text"></input>
+		<span class="two">></span>
+	</div>
+	<div class="money">
+		<span class="one">押金</span>
+		<!-- <input style="box-shadow: none;margin-left: 0.7466rem;" type="text" placeholder="1-1000元"></input> -->
+		<input type='text' style='margin-left: 0.7466rem;' placeholder="1-1000" id='money'/>
+		<span class="two">元</span>
+	</div>
+	<div class="whoSee">
+		<span class="one">谁可以看</span>
+		<!-- <span class="two">公开</span> -->
+		<input type="text" class="two" id="picker"/>
+	</div>
+	<div class="foot">
+		<a id="next">下一步</a>
+		<div class="footerCon">
+			<span style="color: #58b9bb;">编写目标</span>
+			<span>&nbsp>&nbsp</span>
+			<span>支付押金</span>
+			<span>&nbsp>&nbsp</span>
+			<span>找好友监督</span>
+		</div>
+	</div>
+<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="js/jquery-weui.min.js"></script>
+<script type="text/javascript" src="js/wx.js"></script>
+<script type="text/javascript" src="js/vue-min.js"></script>
+<script type="text/javascript" src="js/vue-resource.js"></script>
+<script type="text/javascript" src="js/publishGoal.js"></script>
+</body>
+</html>
